@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("./assets/cold-weather.jpg");
+  background-image: url(".cold-weather.jpg");
 }
 
 .app.warm {
@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("./assets/warm-weather-new.jpg");
+  background-image: url(".warm-weather-new.jpg");
 }
 
 .main {
