@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, {useState} from 'react';
+import Container from 'react-bootstrap/Container';
 
 const api = {
   key: "89b8f505298b1ac57cdafb6e78e6ca1a",
@@ -49,8 +50,8 @@ function App() {
   }
 
   return (
-    <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? "app warm": "app") : "app"}>
-      <div className="main">
+    <Container className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? "app warm": "app") : "app"} fluid={true}>
+      <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? "main warm": "main") : "main"}>
         <div className="search">
           <div className="search-bar">
             <h3 id="instruction">Enter a city:</h3>
@@ -70,7 +71,7 @@ function App() {
 
           </div>) : ''}
       </div>
-    </div>
+    </Container>
   );
 }
 

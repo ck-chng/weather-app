@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(".cold-weather.jpg");
+  background-color: #eee;
 }
 
 .app.warm {
@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(".warm-weather-new.jpg");
 }
 
 .main {
@@ -21,9 +20,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 500px;
-  width: 500px;
+  height: 80%;
+  width: 65%;
   border: solid black 1px;
+  background-image: url("./assets/new-cold-weather.png");
+}
+
+.main.warm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80%;
+  width: 65%;
+  border: solid black 1px;
+  background-image: url("./warm-weather-new.jpg");
 }
 
 .search {
