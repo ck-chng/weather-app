@@ -43,7 +43,6 @@
   align-items: center;
   height: 25%;
   justify-content: center;
-  border: solid black 1px;
 }
 
 .search-bar {
@@ -69,7 +68,6 @@
 
 .info {
   height: 75%;
-  border: solid black 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
