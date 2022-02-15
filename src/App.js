@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 
 const api = {
   key: "89b8f505298b1ac57cdafb6e78e6ca1a",
-  base: "http://api.openweathermap.org/data/2.5/"
+  base: "https://api.openweathermap.org/data/2.5/"
 }
 
 
