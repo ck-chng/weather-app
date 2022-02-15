@@ -20,8 +20,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 80%;
-  width: 65%;
+  height: 600px;
+  width: 600px;
   border: solid black 1px;
   background-image: url("./assets/new-cold-weather.png");
 }
@@ -31,8 +31,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 80%;
-  width: 65%;
+  height: 600px;
+  width: 600px;
   border: solid black 1px;
   background-image: url("./warm-weather-new.jpg");
 }
